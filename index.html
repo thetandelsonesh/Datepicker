@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio earum explicabo odit placeat? Ad assumenda doloribus eligendi eos exercitationem iste maiores! Deserunt ea ex facilis id rem sapiente velit?</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque distinctio earum explicabo odit placeat? Ad assumenda doloribus eligendi eos exercitationem iste maiores! Deserunt ea ex facilis id rem sapiente velit?</p>
+<input type="text" id="dob" readonly placeholder="Please select DOB">
+
+
+<script src="./index.js"></script>
+
+<script>
+    new TanDatepicker('dob', {
+        selectedYear: 2020,
+        selectedMonth: 'DEC',
+        selectedDate: new Date('2020-04-04')
+    });
+</script>
+</body>
+</html>
+
